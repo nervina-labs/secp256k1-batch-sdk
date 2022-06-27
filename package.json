@@ -1,9 +1,36 @@
 {
   "name": "secp256k1-batch-sdk",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "The SDK of secp256k1-batch lock script on Nervos CKB",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
   "repository": "git@github.com:nervina-labs/secp256k1-batch-sdk.git",
   "author": "Dylan <duanyytop@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+
+  "dependencies": {
+    "@nervosnetwork/ckb-sdk-core": "^0.103.0",
+    "@nervosnetwork/ckb-sdk-utils": "^0.103.0",
+    "@nervosnetwork/ckb-types": "^0.103.0",
+    "axios": "^0.27.2",
+    "camelcase-keys": "^7.0.2"
+  },
+
+  "devDependencies": {
+    "@types/node": "17.0.31",
+    "@typescript-eslint/parser": "5.29.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "8.14.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "husky": "8.0.1",
+    "prettier": "2.7.1",
+    "ts-node": "10.8.1",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  }
 }
