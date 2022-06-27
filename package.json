@@ -1,0 +1,9 @@
+{
+  "name": "secp256k1-batch-sdk",
+  "version": "1.0.0",
+  "description": "The SDK of secp256k1-batch lock script on Nervos CKB",
+  "main": "index.js",
+  "repository": "git@github.com:nervina-labs/secp256k1-batch-sdk.git",
+  "author": "Dylan <duanyytop@gmail.com>",
+  "license": "MIT"
+}
